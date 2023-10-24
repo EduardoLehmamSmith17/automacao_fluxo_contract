@@ -13,7 +13,7 @@ numeroPedido = 'Código do contrato'
 categoriaContrato = 'Categoria do contrato'
 valorContrato = 'valor do contrato'
 dataIncial = 'vigência inicial'
-dataFinal = 'vigênci final'
+dataFinal = 'vigência final'
 unidadeContrato = 'Unidade do contrato'
 fornecedorContrato = 'CNPJ do fornecedor'
 
