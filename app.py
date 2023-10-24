@@ -6,16 +6,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Informações de padroes pré configuradas
-emailUsuario = 'eduardo.smith@atlasinovacoes.com.br'
-senhaUsuario = '@abc1234'
-nomeCliente = '#Cliente Smith QA'
-numeroPedido = 'testeAutomoção CERTO Smithera'
-categoriaContrato = 'Brigada de incêndio'
-valorContrato = '5000000'
-dataIncial = '01/01/2023'
-dataFinal = '31/12/2023'
-unidadeContrato = 'Unidade Carapicuiba'
-fornecedorContrato = '50.840.129/0001-86'
+emailUsuario = 'email do usuario'
+senhaUsuario = 'senha do usuario'
+nomeCliente = 'Cliente a ser acessado'
+numeroPedido = 'Código do contrato'
+categoriaContrato = 'Categoria do contrato'
+valorContrato = 'valor do contrato'
+dataIncial = 'vigência inicial'
+dataFinal = 'vigênci final'
+unidadeContrato = 'Unidade do contrato'
+fornecedorContrato = 'CNPJ do fornecedor'
 
 # Entrar no site https://accounts-qa.atlasfacilities.com.br/Account/Login via edge
 driver = webdriver.Edge()
